@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Bestellingen</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html">Bit-Academy Boekwinkel</a>
+        </div>
+        <div class="nav-links">
+            <a href="html/add-product.html">Orders</a>
+            <a href="admin.html">Products</a>
+        </div>
+    </div>
+
+    <h1>Bestel Overzicht</h1>
+    <button id="reset-orders-button">Reset Orders</button>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Prijs</th>
+                <th>Datum en Tijd</th>
+            </tr>
+        </thead>
+        <tbody id="order-table-body">
+
+        </tbody>
+    </table>
+
+    <script src="js/admin-orders.js"></script>
+</body>
+
+</html>
